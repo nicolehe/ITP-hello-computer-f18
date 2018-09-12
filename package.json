@@ -1,0 +1,28 @@
+{
+  "name": "itp-hello-computer-f18",
+  "version": "1.0.0",
+  "description": "code for class",
+  "main": "index.js",
+  "dependencies": {
+    "eslint-plugin-html": "^4.0.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-promise": "^4.0.0",
+    "eslint-plugin-standard": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolehe/ITP-hello-computer-f18.git"
+  },
+  "author": "Nicole He",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolehe/ITP-hello-computer-f18/issues"
+  },
+  "homepage": "https://github.com/nicolehe/ITP-hello-computer-f18#readme"
+}
