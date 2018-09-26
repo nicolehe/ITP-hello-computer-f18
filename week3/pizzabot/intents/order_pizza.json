@@ -1,0 +1,57 @@
+{
+  "id": "878333a0-07e5-4007-9cd2-e9faaeaf4e0d",
+  "name": "order_pizza",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "order_pizza-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a68f7e86-2460-42e4-94c0-9a5be64299c5",
+          "required": false,
+          "dataType": "@pizza",
+          "name": "pizza",
+          "value": "$pizza",
+          "isList": false
+        },
+        {
+          "id": "19acd2b5-e32a-4367-b883-b90fff0b2dd4",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "How many pizzas do you want?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sure!!!! You want $number pizzas. What toppings do you want?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537836695,
+  "fallbackIntent": false,
+  "events": []
+}

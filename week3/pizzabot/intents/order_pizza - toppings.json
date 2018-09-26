@@ -1,0 +1,42 @@
+{
+  "id": "de78e23a-c235-47be-bb0d-211daa6fc785",
+  "parentId": "878333a0-07e5-4007-9cd2-e9faaeaf4e0d",
+  "rootParentId": "878333a0-07e5-4007-9cd2-e9faaeaf4e0d",
+  "name": "order_pizza - toppings",
+  "auto": true,
+  "contexts": [
+    "order_pizza-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "order_pizza.order_pizza-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "5ec888e9-1778-4871-aa82-13451f5d970e",
+          "required": false,
+          "dataType": "@toppings",
+          "name": "toppings",
+          "value": "$toppings",
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay, you wanted #order_pizza-followup.number pizzas, and for toppings you want $toppings."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537837224,
+  "fallbackIntent": false,
+  "events": []
+}

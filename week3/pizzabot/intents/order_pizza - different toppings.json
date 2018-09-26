@@ -1,0 +1,48 @@
+{
+  "id": "c4a79bd0-5476-4c31-9a77-1a5f7f8d9a2a",
+  "parentId": "878333a0-07e5-4007-9cd2-e9faaeaf4e0d",
+  "rootParentId": "878333a0-07e5-4007-9cd2-e9faaeaf4e0d",
+  "name": "order_pizza - different toppings",
+  "auto": true,
+  "contexts": [
+    "order_pizza-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "order_pizza.order_pizza-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "7b947645-7611-4566-b27c-8bf7b4175c84",
+          "dataType": "@toppings",
+          "name": "toppings",
+          "value": "$toppings",
+          "isList": false
+        },
+        {
+          "id": "71d8b231-bb3e-4ea9-8e9f-62928e83abeb",
+          "dataType": "@toppings",
+          "name": "toppings1",
+          "value": "$toppings1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "So you want different toppings! You want $toppings1 and $toppings"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537837332,
+  "fallbackIntent": false,
+  "events": []
+}

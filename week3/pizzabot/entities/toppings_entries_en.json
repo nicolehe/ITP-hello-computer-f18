@@ -1,0 +1,35 @@
+[
+  {
+    "value": "mushrooms",
+    "synonyms": [
+      "mushrooms",
+      "creminis",
+      "shrooms"
+    ]
+  },
+  {
+    "value": "sausages",
+    "synonyms": [
+      "sausages",
+      "meat"
+    ]
+  },
+  {
+    "value": "onions",
+    "synonyms": [
+      "onions"
+    ]
+  },
+  {
+    "value": "olives",
+    "synonyms": [
+      "olives"
+    ]
+  },
+  {
+    "value": "pepperoni",
+    "synonyms": [
+      "pepperoni"
+    ]
+  }
+]

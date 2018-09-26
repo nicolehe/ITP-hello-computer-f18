@@ -1,0 +1,104 @@
+[
+  {
+    "id": "d0dfec5f-5883-4f47-ae73-42323d9d8476",
+    "data": [
+      {
+        "text": "gimme a ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "pizza",
+        "meta": "@pizza",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537836480
+  },
+  {
+    "id": "674fc51c-faa2-4621-a6bd-26c54b5ba5b0",
+    "data": [
+      {
+        "text": "i\u0027m hungry",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537836180
+  },
+  {
+    "id": "4e975835-cb07-47e6-9430-2fffe7b3afae",
+    "data": [
+      {
+        "text": "gotta have my ",
+        "userDefined": false
+      },
+      {
+        "text": "za",
+        "alias": "pizza",
+        "meta": "@pizza",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537836180
+  },
+  {
+    "id": "4de2fce4-934e-4d47-bfd5-383fb034530a",
+    "data": [
+      {
+        "text": "pizza",
+        "alias": "pizza",
+        "meta": "@pizza",
+        "userDefined": true
+      },
+      {
+        "text": " please",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537836180
+  },
+  {
+    "id": "712fe432-afe0-4ee5-9b1c-e0e7ce794ced",
+    "data": [
+      {
+        "text": "gimme ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "pizza",
+        "meta": "@pizza",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537836180
+  },
+  {
+    "id": "b3d837c5-b331-4f38-9fc9-d026188aa67f",
+    "data": [
+      {
+        "text": "i want a ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "alias": "pizza",
+        "meta": "@pizza",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1537836180
+  }
+]
