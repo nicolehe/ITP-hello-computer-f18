@@ -1,0 +1,48 @@
+{
+  "id": "98df4d57-e03a-4a8a-9293-4fd19e5aa7c6",
+  "name": "get fortune",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "getfortune-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "85296ae7-ca1a-49c2-bd8a-a48b0d9b4c57",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Okay, what is your name?"
+            }
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538440932,
+  "fallbackIntent": false,
+  "events": []
+}

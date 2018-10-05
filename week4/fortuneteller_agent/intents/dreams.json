@@ -1,0 +1,33 @@
+{
+  "id": "0a2895e3-4621-4c13-80c0-ab4c9f6df315",
+  "parentId": "98df4d57-e03a-4a8a-9293-4fd19e5aa7c6",
+  "rootParentId": "98df4d57-e03a-4a8a-9293-4fd19e5aa7c6",
+  "name": "dreams",
+  "auto": true,
+  "contexts": [
+    "getfortune-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "getfortune.getfortune-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1538441656,
+  "fallbackIntent": false,
+  "events": []
+}

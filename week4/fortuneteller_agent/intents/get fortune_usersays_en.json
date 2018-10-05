@@ -1,0 +1,50 @@
+[
+  {
+    "id": "d8a6b827-527a-49fc-a1d0-101cffbd8a00",
+    "data": [
+      {
+        "text": "give me my fortune",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538440932
+  },
+  {
+    "id": "5f57d72a-d531-4c78-93d8-dea74ad91099",
+    "data": [
+      {
+        "text": "what\u0027s my horoscope",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538440932
+  },
+  {
+    "id": "1b05dcb4-62b7-4b5a-9c0b-9d7695b215ef",
+    "data": [
+      {
+        "text": "fortune",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538440932
+  },
+  {
+    "id": "0e8aa972-d060-4da6-b666-33402de1c18b",
+    "data": [
+      {
+        "text": "tell me my fortune",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538440932
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "a5ed3516-ce2e-4623-884a-416138abe4ef",
+    "data": [
+      {
+        "text": "my dream was about a small cat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538441656
+  },
+  {
+    "id": "c668e346-c4ac-4757-972c-9c54ed8d9f59",
+    "data": [
+      {
+        "text": "i had a dream about chickens",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538441656
+  },
+  {
+    "id": "7fe51252-ce35-4f1e-b671-77d36fba7186",
+    "data": [
+      {
+        "text": "i dreamt about cookies",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1538441656
+  }
+]
