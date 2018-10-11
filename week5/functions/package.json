@@ -12,6 +12,7 @@
     "actions-on-google": "^2.3.0",
     "firebase-admin": "~6.0.0",
     "firebase-functions": "^2.0.3",
+    "lodash": "^4.17.11",
     "sentiment": "^5.0.1"
   },
   "private": true
