@@ -2,6 +2,12 @@ const functions = require('firebase-functions');
 const { dialogflow, BasicCard, Button, Image } = require('actions-on-google');
 const Sentiment = require('sentiment');
 const sentiment = new Sentiment();
+const admin = require('firebase-admin');
+
+admin.initializeApp(functions.config().firebase);
+const db = admin.firestore();
+
+const docRef = db.collection('fortuneSeekers').doc('latest');
 
 const _ = require('lodash');
 
@@ -9,20 +15,25 @@ const fs = require('fs');
 const veggiesRaw = fs.readFileSync('veggies.json');
 const veggies = JSON.parse(veggiesRaw);
 
-
-
 const app = dialogflow();
 
 app.intent('Default Welcome Intent', conv => {
+  let tester = docRef.set({
+    name: 'bob',
+    age: 12,
+    favFoods: ['ice cream', 'noodles']
+  });
+
+  console.log(tester);
+
   conv.ask(
-    '<speak> <prosody rate="slow" pitch="-2st">Can you hear me now?</prosody> Hello <break time="2s"/>, you can ask for your fortune. <audio src="https://actions.google.com/sounds/v1/horror/aggressive_zombie_snarls.ogg"></audio></speak>'
+    '<speak> Hi <break time="2s"/>, you can ask for your fortune. <audio src="https://actions.google.com/sounds/v1/horror/aggressive_zombie_snarls.ogg"></audio></speak>'
   );
 });
 
 app.intent('get fortune', (conv, params) => {
+  docRef.set({ name: params.name });
   conv.ask(`Hello, ${params.name}, what did you dream about last night?`);
-
-  
 });
 
 app.intent('dreams', conv => {
